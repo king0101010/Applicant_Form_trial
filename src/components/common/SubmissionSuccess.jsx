@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-// import Header from '../common/header';
-// import Footer from '../common/footer';
+import Header from '../common/header';
+import Footer from '../common/footer';
 
 const SubmissionSuccess = () => {
   return (
     <div className="min-h-screen bg-[#f3f5ed] flex flex-col">
-      {/* <Header /> */}
+      <Header />
       <div className="flex-1 flex items-center justify-center p-4">
         <div className="w-full max-w-3xl bg-white rounded-lg shadow-lg p-8 md:p-12 text-center">
           <div className="flex flex-col items-center">
@@ -47,7 +47,7 @@ const SubmissionSuccess = () => {
           </div>
         </div>
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };
