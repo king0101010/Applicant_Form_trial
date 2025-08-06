@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Header from '../components/common/Header';
-import Footer from '../components/common/Footer';
+import Header from '../components/common/header';
+import Footer from '../components/common/footer';
 import SubmissionSuccess from '../components/common/SubmissionSuccess';
 
 const CandidateApplicationForm = () => {
