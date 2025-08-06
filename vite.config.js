@@ -4,6 +4,7 @@ import path from 'path';
 import tagger from "@dhiwise/component-tagger";
 
 export default defineConfig({
+  base: '/', // ✅ Necessary for proper module path resolution in production (Cloudflare Pages)
   plugins: [react(), tagger()],
   build: {
     outDir: "dist",
