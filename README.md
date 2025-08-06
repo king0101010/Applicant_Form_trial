@@ -1,8 +1,17 @@
-# React + Vite
+⚛️ React Vite App – Deployed on Cloudflare Pages
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a modern React app using 'Vite' and 'Tailwind CSS', deployed via 'Cloudflare Pages' with a custom domain 'https://king01.live'.
 
-Currently, two official plugins are available:
+🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 [https://king01.live](https://king01.live)
+
+
+✅ Features
+
+⚡ Fast build with Vite
+🎨 Tailwind CSS styling
+📁 Organized file structure
+📄 Clean and reusable components
+🌍 Deployed via Cloudflare Pages
+🧹 Ready for extension and production use
