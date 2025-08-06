@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Header from '../components/common/header';
-import Footer from '../components/common/footer';
+// import Header from '../components/common/header';
+// import Footer from '../components/common/footer';
 import SubmissionSuccess from '../components/common/SubmissionSuccess';
 
 const CandidateApplicationForm = () => {
@@ -257,7 +257,7 @@ const CandidateApplicationForm = () => {
 
   return (
     <div className="min-h-screen bg-[#f3f5ed] flex flex-col">
-      <Header />
+      {/* <Header /> */}
       <div className="flex-1 w-full flex flex-col items-center px-4 py-6 overflow-auto pt-16 lg:pt-20">
         {isSubmitted ? (
           <SubmissionSuccess onReturnHome={handleReturnHome} />
@@ -861,7 +861,7 @@ const CandidateApplicationForm = () => {
           </form>
         )}
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };
