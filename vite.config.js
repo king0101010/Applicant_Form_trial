@@ -4,7 +4,7 @@ import path from 'path';
 import tagger from "@dhiwise/component-tagger";
 
 export default defineConfig({
-  base: '/', // ✅ Necessary for proper module path resolution in production (Cloudflare Pages)
+  base: '/', // ✅ Required for correct asset paths at root domain
   plugins: [react(), tagger()],
   build: {
     outDir: "dist",
@@ -37,7 +37,6 @@ export default defineConfig({
     strictPort: true,
     allowedHosts: ['.amazonaws.com', '.builtwithrocket.new']
   },
-  // Add this optimization setting
   optimizeDeps: {
     exclude: ['i18next']
   }
