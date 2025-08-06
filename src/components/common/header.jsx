@@ -12,21 +12,21 @@ const Header = () => {
 
   const menuItems = [
     { name: 'Home', href: '/' },
-    { name: 'Available Jobs', href: '/current-jobs' },
-    { name: 'Sectors', href: '/industry' },
+    { name: 'Available Jobs', href: '/' },
+    { name: 'Sectors', href: '/' },
   ];
 
   const resourcesDropdownItems = [
-    { name: 'Brochure & Catalogue', href: '/resources/brochure' },
-    { name: 'Gallery', href: '/resources/gallery' },
-    { name: 'Blogs', href: '/resources/blogs' },
+    { name: 'Brochure & Catalogue', href: '/' },
+    { name: 'Gallery', href: '/' },
+    { name: 'Blogs', href: '/' },
   ];
 
   const companyDropdownItems = [
-    { name: 'About Us', href: '/about-us' },
-    { name: 'CSR', href: '/company/csr' },
-    { name: 'Clients', href: '/company/clients' },
-    { name: 'Company Policy', href: '/company/policy' },
+    { name: 'About Us', href: '/' },
+    { name: 'CSR', href: '/' },
+    { name: 'Clients', href: '/' },
+    { name: 'Company Policy', href: '/' },
   ];
 
   // Close all dropdowns when mouse leaves nav
